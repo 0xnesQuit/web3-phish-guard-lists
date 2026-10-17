@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792269932245,
+  "updatedAt": 1792270166810,
   "files": {
     "brands.seed.json": {
       "bytes": 10541,
@@ -10,12 +10,12 @@
       "sha256": "529b4df7fcf655991222a4343e25b738712db6ceee9c196a76470f37e2c48f2c"
     },
     "brands.nft.json": {
-      "bytes": 40891,
-      "sha256": "5655108b8256f7c518ea60af4549c6b5c23b5524d227e3d69ce5b5029aa52aa4"
+      "bytes": 85894,
+      "sha256": "17380a7f8b62e070ae6c56edb4630151b72449bf3262c221892eb2f5a7365373"
     },
     "brands.cmc.json": {
-      "bytes": 649924,
-      "sha256": "b3a3f902f1536449fd9ee5ea0360bc2a202693dec336083998723e45fa5996f6"
+      "bytes": 649799,
+      "sha256": "d2de2d0321b9c8524181e0fd892e9b0972ce2f66db4eb7a6042d2bb120f70b09"
     },
     "action-words.json": {
       "bytes": 1193,
