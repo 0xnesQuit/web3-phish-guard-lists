@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792270166810,
+  "updatedAt": 1792273047605,
   "files": {
     "brands.seed.json": {
       "bytes": 10541,
@@ -32,6 +32,10 @@
     "trusted.json": {
       "bytes": 4698,
       "sha256": "1cf5a47e8882cfc344e1877a840d3aa5eeae40bd614b9a8b71893f16bcef3663"
+    },
+    "community-blocklist.json": {
+      "bytes": 31,
+      "sha256": "82fcb7a62dbb87d3ba4a430a3139a88255c448c6fdb17c3c0fa93914b1f120b7"
     }
   }
 }

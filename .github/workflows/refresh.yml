@@ -29,6 +29,13 @@ jobs:
           OPENSEA_API_KEY: ${{ secrets.OPENSEA_API_KEY }}
         run: |
           if [ -n "$OPENSEA_API_KEY" ]; then node scripts/build-nft-brands.mjs 300 || echo "OpenSea run failed, keeping previous list"; else echo "OPENSEA_API_KEY not set, skipping"; fi
+      - name: Community blocklist (approved user reports)
+        env:
+          API_BASE: ${{ vars.API_BASE }}
+        run: |
+          if [ -n "$API_BASE" ]; then
+            curl -fsS "$API_BASE/v1/community.json" -o /tmp/community.json && node -e 'const j=require("/tmp/community.json"); if(!Array.isArray(j.domains)) process.exit(1); require("fs").writeFileSync("data/community-blocklist.json", JSON.stringify({updatedAt:j.updatedAt||0, domains:j.domains}))' || echo "community fetch failed, keeping previous"
+          else echo "API_BASE var not set, skipping"; fi
       - name: Manifest
         run: node scripts/publish-lists.mjs data
       - name: Commit and push

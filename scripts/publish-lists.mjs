@@ -6,7 +6,7 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync, statSync } from "node:fs";
 import { createHash } from "node:crypto";
 
-const FILES = ["brands.seed.json", "brands.generated.json", "brands.nft.json", "brands.cmc.json", "action-words.json", "free-hosts.json", "tlds.json", "trusted.json"];
+const FILES = ["brands.seed.json", "brands.generated.json", "brands.nft.json", "brands.cmc.json", "action-words.json", "free-hosts.json", "tlds.json", "trusted.json", "community-blocklist.json"];
 const OUT = process.argv[2] || "lists";
 mkdirSync(OUT, { recursive: true });
 
