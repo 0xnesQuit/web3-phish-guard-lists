@@ -1,0 +1,37 @@
+{
+  "updatedAt": 1792269932245,
+  "files": {
+    "brands.seed.json": {
+      "bytes": 10541,
+      "sha256": "d24710a4efa9dba787a5edfb82dfdcf094ce4e72218cbb14bfb450632733d280"
+    },
+    "brands.generated.json": {
+      "bytes": 613769,
+      "sha256": "529b4df7fcf655991222a4343e25b738712db6ceee9c196a76470f37e2c48f2c"
+    },
+    "brands.nft.json": {
+      "bytes": 40891,
+      "sha256": "5655108b8256f7c518ea60af4549c6b5c23b5524d227e3d69ce5b5029aa52aa4"
+    },
+    "brands.cmc.json": {
+      "bytes": 649924,
+      "sha256": "b3a3f902f1536449fd9ee5ea0360bc2a202693dec336083998723e45fa5996f6"
+    },
+    "action-words.json": {
+      "bytes": 1193,
+      "sha256": "b91d195a338757c2d48911015842b3b6bcf7b64495e25ae0683111351453195c"
+    },
+    "free-hosts.json": {
+      "bytes": 846,
+      "sha256": "2e7d2f5ad9ae823ecc8d9960ce9c3bb6dd65a8229a7151f1f6a0b247af7dfbe2"
+    },
+    "tlds.json": {
+      "bytes": 1285,
+      "sha256": "6fb0ae26c40656cd62961bc11a95cf352e360bbea41951c61411bda0a1dbd729"
+    },
+    "trusted.json": {
+      "bytes": 4698,
+      "sha256": "1cf5a47e8882cfc344e1877a840d3aa5eeae40bd614b9a8b71893f16bcef3663"
+    }
+  }
+}
