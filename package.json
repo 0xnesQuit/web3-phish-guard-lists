@@ -1,0 +1,11 @@
+{
+  "name": "web3-phish-guard-lists",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "refresh": "node scripts/build-brands.mjs && node scripts/publish-lists.mjs data"
+  },
+  "dependencies": {
+    "tldts": "^6.1.0"
+  }
+}
