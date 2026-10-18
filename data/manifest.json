@@ -1,42 +1,42 @@
 {
-  "updatedAt": 1792357738807,
+  "updatedAt": 1792365910234,
   "files": {
     "brands.seed.json": {
       "bytes": 10890,
       "sha256": "4a83f57d2c76245d358feb06d0591f48dbaf6e16a1da5a0f1a8481f7cc45801f"
     },
     "brands.generated.json": {
-      "bytes": 614043,
-      "sha256": "2f67cd069e518a47199c5a299160994312095b10e777d964ca71307c9949954d"
+      "bytes": 607781,
+      "sha256": "b4f74958f6188ed00e353c2f6020837b2c5b6d49641790cd580775af9adf670e"
     },
     "brands.nft.json": {
-      "bytes": 87026,
-      "sha256": "0c08324b77d9d76719073be3d067115c73ca4d9584b308fd0c3dee4d763272c7"
+      "bytes": 85558,
+      "sha256": "dfb8299b2b2d6a2707c932c8ae613187315fe73b274180b619fe0e6f87d1a333"
     },
     "brands.cmc.json": {
-      "bytes": 649901,
-      "sha256": "35878308f8d18ddd5e15b8f9a27357bf01d808b722415123d9afa9a5653c151b"
+      "bytes": 648887,
+      "sha256": "d296e77d35878c77842d13e273f9952fd267fee87bb89e0a7c7f3e6c631ab4fd"
     },
     "action-words.json": {
       "bytes": 1193,
       "sha256": "b91d195a338757c2d48911015842b3b6bcf7b64495e25ae0683111351453195c"
     },
     "free-hosts.json": {
-      "bytes": 846,
-      "sha256": "2e7d2f5ad9ae823ecc8d9960ce9c3bb6dd65a8229a7151f1f6a0b247af7dfbe2"
+      "bytes": 1613,
+      "sha256": "526251506146a7220f0bbd0f01c36ec157a1cd4cfaa53efd97fb5affd143a490"
     },
     "tlds.json": {
       "bytes": 1285,
       "sha256": "6fb0ae26c40656cd62961bc11a95cf352e360bbea41951c61411bda0a1dbd729"
     },
     "trusted.json": {
-      "bytes": 5728,
-      "sha256": "097490edb3c1c8b58736755ace1601e606f41f210b49387517c1dbf697384799"
+      "bytes": 5708,
+      "sha256": "2fde1c9a12a0898c8b58a59bf7957665c19512b76a342cc045e068e65d60b92e"
     },
     "community-blocklist.json": {
-      "bytes": 28,
-      "sha256": "295546dad6b02c822383f8a008dda864fdf2500e48eea4bbbe2a9a79426c763c"
+      "bytes": 65,
+      "sha256": "222a4e6e4b137feb8c203eff3f61fc5155d9ebc4c0d5491699ee7973a0bab3fe"
     }
   },
-  "sig": "nXNZIFrwZ/2liE6BJcgPA+YiHmjKn1yblPBCvHd6IWEekOwCl+9/xGu51HKmqCf8QkLBHOiWf0tmFTWhu4w9NQ=="
+  "sig": "hbYDr528E7b2EBF2m4k1O8mZ8MLQ+ekiMCdWnnkdKIC6i06kEx3KhDAMzICmeuoE6ZREhYBlqOA9VsuOHIt3SA=="
 }
