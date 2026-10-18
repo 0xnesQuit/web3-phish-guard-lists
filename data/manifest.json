@@ -1,9 +1,9 @@
 {
-  "updatedAt": 1792365910234,
+  "updatedAt": 1792366276978,
   "files": {
     "brands.seed.json": {
-      "bytes": 10890,
-      "sha256": "4a83f57d2c76245d358feb06d0591f48dbaf6e16a1da5a0f1a8481f7cc45801f"
+      "bytes": 11299,
+      "sha256": "c48b41514c4e3b37df85f849836240edf75e9b0735aa085f3864f0c3e4153cdc"
     },
     "brands.generated.json": {
       "bytes": 607781,
@@ -11,11 +11,11 @@
     },
     "brands.nft.json": {
       "bytes": 85558,
-      "sha256": "dfb8299b2b2d6a2707c932c8ae613187315fe73b274180b619fe0e6f87d1a333"
+      "sha256": "2bee94829cf47d9cb2c2e1f7e5285d67ba6632bfcbdb1a83d55668cc7bc17231"
     },
     "brands.cmc.json": {
-      "bytes": 648887,
-      "sha256": "d296e77d35878c77842d13e273f9952fd267fee87bb89e0a7c7f3e6c631ab4fd"
+      "bytes": 648792,
+      "sha256": "a2c4a7b12e5328806ed456530438834bb676ea3e1662f371e88e732a060a9eaf"
     },
     "action-words.json": {
       "bytes": 1193,
@@ -38,5 +38,5 @@
       "sha256": "222a4e6e4b137feb8c203eff3f61fc5155d9ebc4c0d5491699ee7973a0bab3fe"
     }
   },
-  "sig": "hbYDr528E7b2EBF2m4k1O8mZ8MLQ+ekiMCdWnnkdKIC6i06kEx3KhDAMzICmeuoE6ZREhYBlqOA9VsuOHIt3SA=="
+  "sig": "EiTENbUzSmCDfhzgpD9SM7IzxfQN8MOOmxtmbtCq5ScYFisAuD2rYe+FfJnknrqct86mKLUHjt5R66PKdyEeJw=="
 }
