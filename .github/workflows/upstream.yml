@@ -1,0 +1,32 @@
+name: Submit approved domains upstream
+
+on:
+  schedule:
+    - cron: "41 9 * * 1" # Mondays 09:41 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Open / extend the MetaMask PR
+        env:
+          API_BASE: ${{ vars.API_BASE }}
+          ADMIN_TOKEN: ${{ secrets.ADMIN_TOKEN }}
+          MM_PR_TOKEN: ${{ secrets.MM_PR_TOKEN }}
+        run: |
+          if [ -z "$ADMIN_TOKEN" ] || [ -z "$MM_PR_TOKEN" ]; then echo "ADMIN_TOKEN / MM_PR_TOKEN not set, skipping"; exit 0; fi
+          node scripts/submit-upstream.mjs
+      - name: Remember what was submitted
+        run: |
+          git config user.name "lists-bot"
+          git config user.email "lists-bot@users.noreply.github.com"
+          git add data/upstream-submitted.json
+          if git diff --cached --quiet; then echo "no changes"; else git commit -m "upstream: submitted $(date -u +%Y-%m-%d)" && git push; fi
