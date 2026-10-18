@@ -1,21 +1,21 @@
 {
-  "updatedAt": 1792273047605,
+  "updatedAt": 1792311061214,
   "files": {
     "brands.seed.json": {
       "bytes": 10541,
       "sha256": "d24710a4efa9dba787a5edfb82dfdcf094ce4e72218cbb14bfb450632733d280"
     },
     "brands.generated.json": {
-      "bytes": 613769,
-      "sha256": "529b4df7fcf655991222a4343e25b738712db6ceee9c196a76470f37e2c48f2c"
+      "bytes": 614043,
+      "sha256": "2f67cd069e518a47199c5a299160994312095b10e777d964ca71307c9949954d"
     },
     "brands.nft.json": {
-      "bytes": 85894,
-      "sha256": "17380a7f8b62e070ae6c56edb4630151b72449bf3262c221892eb2f5a7365373"
+      "bytes": 87026,
+      "sha256": "0c08324b77d9d76719073be3d067115c73ca4d9584b308fd0c3dee4d763272c7"
     },
     "brands.cmc.json": {
-      "bytes": 649799,
-      "sha256": "d2de2d0321b9c8524181e0fd892e9b0972ce2f66db4eb7a6042d2bb120f70b09"
+      "bytes": 649901,
+      "sha256": "35878308f8d18ddd5e15b8f9a27357bf01d808b722415123d9afa9a5653c151b"
     },
     "action-words.json": {
       "bytes": 1193,
@@ -34,8 +34,8 @@
       "sha256": "1cf5a47e8882cfc344e1877a840d3aa5eeae40bd614b9a8b71893f16bcef3663"
     },
     "community-blocklist.json": {
-      "bytes": 31,
-      "sha256": "82fcb7a62dbb87d3ba4a430a3139a88255c448c6fdb17c3c0fa93914b1f120b7"
+      "bytes": 28,
+      "sha256": "295546dad6b02c822383f8a008dda864fdf2500e48eea4bbbe2a9a79426c763c"
     }
   }
 }
