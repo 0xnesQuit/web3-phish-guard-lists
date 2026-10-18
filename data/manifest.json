@@ -1,9 +1,9 @@
 {
-  "updatedAt": 1792311061214,
+  "updatedAt": 1792353830287,
   "files": {
     "brands.seed.json": {
-      "bytes": 10541,
-      "sha256": "d24710a4efa9dba787a5edfb82dfdcf094ce4e72218cbb14bfb450632733d280"
+      "bytes": 10890,
+      "sha256": "4a83f57d2c76245d358feb06d0591f48dbaf6e16a1da5a0f1a8481f7cc45801f"
     },
     "brands.generated.json": {
       "bytes": 614043,
