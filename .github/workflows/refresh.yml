@@ -34,7 +34,7 @@ jobs:
           API_BASE: ${{ vars.API_BASE }}
         run: |
           if [ -n "$API_BASE" ]; then
-            curl -fsS "$API_BASE/v1/community.json" -o /tmp/community.json && node -e 'const j=require("/tmp/community.json"); if(!Array.isArray(j.domains)) process.exit(1); require("fs").writeFileSync("data/community-blocklist.json", JSON.stringify({updatedAt:j.updatedAt||0, domains:j.domains}))' || echo "community fetch failed, keeping previous"
+            curl -fsS "$API_BASE/v1/community.json" -o /tmp/community.json && node -e 'const j=require("/tmp/community.json"); if(!Array.isArray(j.domains)) process.exit(1); require("fs").writeFileSync("data/community-blocklist.json", JSON.stringify({updatedAt:j.updatedAt||0, domains:j.domains, auto:Array.isArray(j.auto)?j.auto:[]}))' || echo "community fetch failed, keeping previous"
           else echo "API_BASE var not set, skipping"; fi
       - name: Manifest
         run: node scripts/publish-lists.mjs data
