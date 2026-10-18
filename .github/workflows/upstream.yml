@@ -6,27 +6,46 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   submit:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: 22
-      - name: Open / extend the MetaMask PR
+      # 1. read what a human approved (needs the admin token; runs none of MetaMask's code)
+      - name: Export approved domains
         env:
           API_BASE: ${{ vars.API_BASE }}
           ADMIN_TOKEN: ${{ secrets.ADMIN_TOKEN }}
+        run: |
+          if [ -z "$ADMIN_TOKEN" ]; then echo "ADMIN_TOKEN not set, skipping"; exit 0; fi
+          node scripts/submit-upstream.mjs --phase export
+      # 2. clone the fork, add the domains, run MetaMask's own config tests: third-party code, no secrets in scope
+      - name: Prepare the change
+        run: |
+          if [ ! -f tmp/export.json ]; then echo "nothing exported"; exit 0; fi
+          node scripts/submit-upstream.mjs --phase prepare
+      # 3. push the prepared commit and open / extend the PR (the only step that sees the PR token)
+      - name: Push and open the PR
+        env:
           MM_PR_TOKEN: ${{ secrets.MM_PR_TOKEN }}
         run: |
-          if [ -z "$ADMIN_TOKEN" ] || [ -z "$MM_PR_TOKEN" ]; then echo "ADMIN_TOKEN / MM_PR_TOKEN not set, skipping"; exit 0; fi
-          node scripts/submit-upstream.mjs
+          if [ ! -f tmp/pr.json ]; then echo "nothing prepared"; exit 0; fi
+          if [ -z "$MM_PR_TOKEN" ]; then echo "MM_PR_TOKEN not set, skipping"; exit 0; fi
+          node scripts/submit-upstream.mjs --phase publish
       - name: Remember what was submitted
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "lists-bot"
           git config user.email "lists-bot@users.noreply.github.com"
           git add data/upstream-submitted.json
-          if git diff --cached --quiet; then echo "no changes"; else git commit -m "upstream: submitted $(date -u +%Y-%m-%d)" && git push; fi
+          if git diff --cached --quiet; then echo "no changes"; else git commit -m "upstream: submitted $(date -u +%Y-%m-%d)" && git push "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main; fi
