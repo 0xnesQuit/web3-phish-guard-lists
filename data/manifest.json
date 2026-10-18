@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792353830287,
+  "updatedAt": 1792357738807,
   "files": {
     "brands.seed.json": {
       "bytes": 10890,
@@ -30,12 +30,13 @@
       "sha256": "6fb0ae26c40656cd62961bc11a95cf352e360bbea41951c61411bda0a1dbd729"
     },
     "trusted.json": {
-      "bytes": 4698,
-      "sha256": "1cf5a47e8882cfc344e1877a840d3aa5eeae40bd614b9a8b71893f16bcef3663"
+      "bytes": 5728,
+      "sha256": "097490edb3c1c8b58736755ace1601e606f41f210b49387517c1dbf697384799"
     },
     "community-blocklist.json": {
       "bytes": 28,
       "sha256": "295546dad6b02c822383f8a008dda864fdf2500e48eea4bbbe2a9a79426c763c"
     }
-  }
+  },
+  "sig": "nXNZIFrwZ/2liE6BJcgPA+YiHmjKn1yblPBCvHd6IWEekOwCl+9/xGu51HKmqCf8QkLBHOiWf0tmFTWhu4w9NQ=="
 }
