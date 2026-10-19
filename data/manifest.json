@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792381215404,
+  "updatedAt": 1792381460889,
   "files": {
     "brands.seed.json": {
       "bytes": 11792,
@@ -14,16 +14,16 @@
       "sha256": "da8a42bed99bfe8422f46abe91deb116b3c98913530fad1324d2507167172f2e"
     },
     "brands.cmc.json": {
-      "bytes": 648717,
-      "sha256": "16fa71321d7185f71e5d2de5fd49933bb338cd10b53c91ff9359287521731986"
+      "bytes": 648902,
+      "sha256": "ba802fa5d9f1fbe9dd76ca1810cc2b83d70a13b127c92d99aa167ab63f11eb95"
     },
     "action-words.json": {
       "bytes": 1369,
       "sha256": "bddc065b4a481874b438318757ab59b449ecc2a3b042ebaf2805c559b67a532b"
     },
     "free-hosts.json": {
-      "bytes": 1613,
-      "sha256": "526251506146a7220f0bbd0f01c36ec157a1cd4cfaa53efd97fb5affd143a490"
+      "bytes": 1594,
+      "sha256": "59d982c9d1474c8f0dcb3f0400933e9594927fd87b86e3649d3f4d5c216c55f8"
     },
     "tlds.json": {
       "bytes": 1285,
@@ -39,12 +39,12 @@
     },
     "top-sites.json": {
       "bytes": 762404,
-      "sha256": "4c50893692c57ca08c020dd282bfeff89c92adfaf8c2979567d0328f16fb2185"
+      "sha256": "b4332dd6d27b8c5255eabb6e2912508815b06792ee75c1b635cc8274dbdb968a"
     },
     "community-blocklist.json": {
       "bytes": 65,
       "sha256": "222a4e6e4b137feb8c203eff3f61fc5155d9ebc4c0d5491699ee7973a0bab3fe"
     }
   },
-  "sig": "6TjkX92a0lWnZj6kk4p1Vv0f+vkJS0Je1mVpUoePmRcMw9V0XXsrm7FbAlqEDz2UOmkpcWBDEq4BfauzWzNGBA=="
+  "sig": "9ZTll6NQUWHC+x+I+Q0hWY/E1OHEmCqqMdNXboAtwIqIkjSmqMXYsKYTCZijLMYv0G8Xo8dQRMFesqRvauEy2A=="
 }
