@@ -32,6 +32,8 @@ jobs:
           OPENSEA_API_KEY: ${{ secrets.OPENSEA_API_KEY }}
         run: |
           if [ -n "$OPENSEA_API_KEY" ]; then node scripts/build-nft-brands.mjs 300 || echo "OpenSea run failed, keeping previous list"; else echo "OPENSEA_API_KEY not set, skipping"; fi
+      - name: Top sites (Tranco popularity guard)
+        run: node scripts/build-top-sites.mjs 50000 || echo "Tranco run failed, keeping previous list"
       - name: Community blocklist (approved user reports)
         env:
           API_BASE: ${{ vars.API_BASE }}
