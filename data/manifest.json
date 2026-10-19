@@ -1,21 +1,21 @@
 {
-  "updatedAt": 1792373589283,
+  "updatedAt": 1792375935961,
   "files": {
     "brands.seed.json": {
-      "bytes": 11526,
-      "sha256": "ab6a114cf2f88c918c2c354ec150a62a01ed66de71c837c07e26448274132c69"
+      "bytes": 11792,
+      "sha256": "13a4db38f820728c1339ba455d27890ef1e1309570172499291b3fd884cc471d"
     },
     "brands.generated.json": {
       "bytes": 607674,
-      "sha256": "e8dda8f43118beeab64d0cbf581e6e28895bf42fad699e842dde7c4e8dda5b1f"
+      "sha256": "11d5f7d4df37768a065b1b8ec2577c9073969515f0ca8bcda1408bb809008bb1"
     },
     "brands.nft.json": {
-      "bytes": 85740,
-      "sha256": "79846d621f85d57376fdda3304e5480d881b2887ba662ed19c26225ca06cd6db"
+      "bytes": 85747,
+      "sha256": "91a67b5fe64d944eb57f375d015ef9352d84aa6b6babe66ec1dc7ad88e787f1c"
     },
     "brands.cmc.json": {
-      "bytes": 648943,
-      "sha256": "660dfb6983cf33b8204d63449518dd0817025536b1eae0251046e9cf3c4abff7"
+      "bytes": 648957,
+      "sha256": "8a9ae022530d5c33290ff4c3040195972108486422b11e3e3a4a5f31f8156d82"
     },
     "action-words.json": {
       "bytes": 1369,
@@ -42,5 +42,5 @@
       "sha256": "222a4e6e4b137feb8c203eff3f61fc5155d9ebc4c0d5491699ee7973a0bab3fe"
     }
   },
-  "sig": "GadyD/EmVV/xZ+cSWhRMQlJ/B7AIrEZS7Q06PTqWVPSe2NavL6PPvyqcI28HF5V66QJ3FQxaKEbbp7dSgcJwTQ=="
+  "sig": "4XHybmbyrx23uzBLPwsKsxd0eJ4CcBkFEsz/51ZtOArBSzp84aRnoVvBS2PpqO1oXpwUA7WEUTLCYyalSuPPhA=="
 }
