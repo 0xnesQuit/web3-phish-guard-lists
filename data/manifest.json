@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792375935961,
+  "updatedAt": 1792381215404,
   "files": {
     "brands.seed.json": {
       "bytes": 11792,
@@ -7,15 +7,15 @@
     },
     "brands.generated.json": {
       "bytes": 607674,
-      "sha256": "11d5f7d4df37768a065b1b8ec2577c9073969515f0ca8bcda1408bb809008bb1"
+      "sha256": "5c3f8f2916bbd210d8ddd73b197a069d9c8664c999f2730b8030a779873118cb"
     },
     "brands.nft.json": {
-      "bytes": 85747,
-      "sha256": "91a67b5fe64d944eb57f375d015ef9352d84aa6b6babe66ec1dc7ad88e787f1c"
+      "bytes": 85759,
+      "sha256": "da8a42bed99bfe8422f46abe91deb116b3c98913530fad1324d2507167172f2e"
     },
     "brands.cmc.json": {
-      "bytes": 648957,
-      "sha256": "8a9ae022530d5c33290ff4c3040195972108486422b11e3e3a4a5f31f8156d82"
+      "bytes": 648717,
+      "sha256": "16fa71321d7185f71e5d2de5fd49933bb338cd10b53c91ff9359287521731986"
     },
     "action-words.json": {
       "bytes": 1369,
@@ -37,10 +37,14 @@
       "bytes": 2798,
       "sha256": "783d5d61b2d116bdf56b784ea07e617c2261d22ac3d00a989e3192891bd19222"
     },
+    "top-sites.json": {
+      "bytes": 762404,
+      "sha256": "4c50893692c57ca08c020dd282bfeff89c92adfaf8c2979567d0328f16fb2185"
+    },
     "community-blocklist.json": {
       "bytes": 65,
       "sha256": "222a4e6e4b137feb8c203eff3f61fc5155d9ebc4c0d5491699ee7973a0bab3fe"
     }
   },
-  "sig": "4XHybmbyrx23uzBLPwsKsxd0eJ4CcBkFEsz/51ZtOArBSzp84aRnoVvBS2PpqO1oXpwUA7WEUTLCYyalSuPPhA=="
+  "sig": "6TjkX92a0lWnZj6kk4p1Vv0f+vkJS0Je1mVpUoePmRcMw9V0XXsrm7FbAlqEDz2UOmkpcWBDEq4BfauzWzNGBA=="
 }
