@@ -1,21 +1,21 @@
 {
-  "updatedAt": 1792400708815,
+  "updatedAt": 1792485793195,
   "files": {
     "brands.seed.json": {
       "bytes": 11792,
       "sha256": "13a4db38f820728c1339ba455d27890ef1e1309570172499291b3fd884cc471d"
     },
     "brands.generated.json": {
-      "bytes": 607674,
-      "sha256": "78017b86a0429a554f71e01604a1c710bedf4f0698ef966679c644d68e9ba5db"
+      "bytes": 608328,
+      "sha256": "ea267f2283ed92b1e2cce2d1b217b56534acd166d454a83d78454e4a6067c36c"
     },
     "brands.nft.json": {
-      "bytes": 85493,
-      "sha256": "47b4b95acb9726ab3b83895d7e48452069c4a7bab3d8233a1559921a65e38669"
+      "bytes": 86567,
+      "sha256": "713ddd8d30a080688e1ef9d135185592c05b89af9685d06de86abf84d0b5288b"
     },
     "brands.cmc.json": {
-      "bytes": 648821,
-      "sha256": "00d67bca1f481c546016b21fd78cd4d2d0f12ea13eb46ee2d45577f94d1e32c7"
+      "bytes": 648388,
+      "sha256": "3ea3184caa624b27cdecbbc7c81a2a725d417213c28728559ea99f114167373a"
     },
     "action-words.json": {
       "bytes": 1369,
@@ -38,13 +38,13 @@
       "sha256": "783d5d61b2d116bdf56b784ea07e617c2261d22ac3d00a989e3192891bd19222"
     },
     "top-sites.json": {
-      "bytes": 762404,
-      "sha256": "ac89c5acff038601a27d4b992c3117c32242fdf88d819b661e69e41fddbb8571"
+      "bytes": 762681,
+      "sha256": "6c0161de21e41a88dbf070dd7f872b9d32558b54b8459e4361ae2f68852a6944"
     },
     "community-blocklist.json": {
       "bytes": 65,
-      "sha256": "222a4e6e4b137feb8c203eff3f61fc5155d9ebc4c0d5491699ee7973a0bab3fe"
+      "sha256": "371ca576475ce3e11e179aa83017c5200e882493f0d885547e094fe316c7b69e"
     }
   },
-  "sig": "84lVubGLU9X4piGetpwYhzJPyVbkHRy+IazeGgcZrNHG47tl6887usyExB3C58WD98ahtkdBIJCs0/ncYeaKIQ=="
+  "sig": "4JDKq2S3FFH8oib1G+LCoRNwWnfm/KIFa2wsN/0+Q4tpMDGLp9NsZrNRtzrCPuC9b6mxppqs5HT/m+eCJNlbNg=="
 }
